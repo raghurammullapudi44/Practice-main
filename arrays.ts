@@ -1,5 +1,5 @@
 const myArray1: number[] = [1, 2, 3, 4]
-myArray.push(5)
+myArray1.push(5)
 console.log(myArray1)
 const theSameArray=new Array(1,2,3,4,5)
 console.log(theSameArray)
@@ -11,4 +11,4 @@ console.log(newArray)
 
 
 var myArray12 = ["string", 10, {}]
-console.log("referff")
+console.log("reffedferff")
