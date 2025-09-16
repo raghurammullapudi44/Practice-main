@@ -11,4 +11,4 @@ console.log(newArray)
 
 
 var myArray12 = ["string", 10, {}]
-console.log("reffedferff")
+console.log("reffedfedfvfdvrff")
