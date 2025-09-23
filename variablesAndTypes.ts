@@ -55,17 +55,17 @@ type myObjectTypeWithTS={
     [key:string]:any //this is required for typescript to define a key of string type and value of any type can be added later. if 
     //if we dont give this typescript will show warning if i try to add new member or fields later to this object
 }
-const myObjectWithTS:myObjectTypeWithTS={
-    firstName:"raghu",
-    lastName:"ram",
-    fullName:function(){
-        return this.firstName+" "+this.lastName
+const myObjectWithTS: myObjectTypeWithTS = {
+    firstName: "raghu",
+    lastName: "ram",
+    fullName: function () {
+        return this.firstName + " " + this.lastName;
     }
     //fullName:()=>{return "raghu ram"}// this is also valid but does not have this binding so we cannot use this
     // fullName(){// this is also valid
     //     return this.firstName+" "+this.lastName
     // }
-}
+};
 
 console.log(myObjectWithTS.fullName())
 myObjectWithTS["ggigse"]="ibhigh"
